@@ -30,9 +30,9 @@ We can remove any content that violates these rules and suspend or terminate acc
 
 Players can flag submissions they believe violate the rules or don't match the challenge. Flagging is a gameplay mechanic and a moderation tool. Abuse of the flag system (e.g. coordinated false flagging) may result in account suspension.
 
-## The game
+## Changes to the app
 
-Captain's Call is a social game. Elimination, captain rotation, and review windows are core mechanics. We may adjust game rules, timing, and mechanics at any time to improve the experience.
+We may adjust game mechanics, features, and functionality at any time to improve the experience.
 
 ## Availability
 
