@@ -1,4 +1,4 @@
-# Captain's Call — Support
+# Captains — Support
 
 Need help? Have feedback? Found a bug?
 
