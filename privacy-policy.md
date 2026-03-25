@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Captain's Call**
+**Captains**
 Operated by Simon Luo
 Last updated: 25 March 2026
 
@@ -8,7 +8,7 @@ Last updated: 25 March 2026
 
 ## Who we are
 
-Captain's Call is operated by Simon Luo, based in London, UK. For any privacy questions or requests, contact: feedback@simonluo.com
+Captains is operated by Simon Luo, based in London, UK. For any privacy questions or requests, contact: feedback@simonluo.com
 
 ## What we collect and why
 
@@ -67,7 +67,7 @@ We send push notifications for game events (new challenges, submissions, elimina
 
 ## Children
 
-Captain's Call is not intended for children under 13. We don't knowingly collect data from anyone under 13. If you believe a child has created an account, contact us and we'll delete it.
+Captains is not intended for children under 13. We don't knowingly collect data from anyone under 13. If you believe a child has created an account, contact us and we'll delete it.
 
 ## Complaints
 
