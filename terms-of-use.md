@@ -1,12 +1,12 @@
 # Terms of Use
 
-**Captain's Call**
+**Captains**
 Operated by Simon Luo
 Last updated: 25 March 2026
 
 ---
 
-By using Captain's Call, you agree to these terms.
+By using Captains, you agree to these terms.
 
 ## Your account
 
@@ -14,7 +14,7 @@ You need an Apple ID to sign in. You're responsible for your account and everyth
 
 ## Your content
 
-You own the videos, comments, and chat messages you create. By posting them in Captain's Call, you grant us a non-exclusive, worldwide licence to store, display, and distribute your content to other players in your games. This licence exists so the app works — we won't use your content for anything else. The licence ends when you delete your content or your account.
+You own the videos, comments, and chat messages you create. By posting them in Captains, you grant us a non-exclusive, worldwide licence to store, display, and distribute your content to other players in your games. This licence exists so the app works — we won't use your content for anything else. The licence ends when you delete your content or your account.
 
 You're responsible for what you post. Don't post:
 
