@@ -4,6 +4,8 @@
 Operated by Simon Luo
 Last updated: 25 March 2026
 
+See also: [Terms of Use](https://github.com/luo-simon/captains-app/blob/main/terms-of-use.md)
+
 ---
 
 ## Who we are
