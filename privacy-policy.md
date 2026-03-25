@@ -21,21 +21,22 @@ Captain's Call is operated by Simon Luo, based in London, UK. For any privacy qu
 | Videos you record | Contract | Gameplay — challenge and response videos, visible to players in your game |
 | Device push token | Consent (you grant permission via iOS prompt) | Push notifications for game events |
 | Game activity | Contract | Submissions, flags, comments, chat messages — all part of gameplay |
+| App usage analytics | Legitimate interest | Anonymous events like screen views, button taps, app opens/backgrounds. Used to improve the app. No passwords, credit cards, or PII captured. Processed by PostHog. |
 
-"Contract" means we need this data to provide the service you signed up for. "Consent" means you actively opted in and can withdraw at any time.
+"Contract" means we need this data to provide the service you signed up for. "Consent" means you actively opted in and can withdraw at any time. "Legitimate interest" means we have a reasonable business need that doesn't override your rights.
 
 ## What we don't collect
 
 - Location data
 - Contacts
-- Browsing or usage analytics (this may change — we'll update this policy first)
-- We don't sell or share your data with third parties
+- We don't sell or share your data for advertising
 - We don't show ads
 
 ## Who sees your data
 
 - **Other players in your games** see your display name, avatar, videos, comments, and chat messages
 - **Supabase** hosts our database and file storage (see supabase.com/privacy)
+- **PostHog** processes anonymous app usage analytics (see posthog.com/privacy)
 - **Apple** processes your sign-in via Sign in with Apple
 - **No one else**
 
