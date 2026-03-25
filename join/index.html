@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join Game — Captains</title>
+  <meta name="description" content="You've been invited to play Captains — the video challenge game for friend groups.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 80px 24px;
+      background: #fafaf8;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+    .crown { font-size: 48px; margin-bottom: 16px; }
+    h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+    p { color: #666; font-size: 16px; line-height: 1.5; margin-bottom: 32px; max-width: 320px; margin-left: auto; margin-right: auto; }
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      border-radius: 24px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .btn:hover { background: #333; }
+    .code {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 8px 16px;
+      background: #f0f0ee;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="crown">👑</div>
+  <h1>You've been invited to play Captains</h1>
+  <p>The video challenge game for friend groups. Download the app to join this game.</p>
+  <a class="btn" href="https://apps.apple.com/app/captains/id6744253498">Download on the App Store</a>
+  <script>
+    // Extract invite code from URL path (e.g. /join/ABC123)
+    const path = window.location.pathname;
+    const match = path.match(/\/join\/([A-Za-z0-9]+)/);
+    if (match) {
+      const code = match[1];
+      const el = document.createElement('div');
+      el.className = 'code';
+      el.textContent = 'Invite code: ' + code;
+      document.body.appendChild(el);
+    }
+  </script>
+</body>
+</html>

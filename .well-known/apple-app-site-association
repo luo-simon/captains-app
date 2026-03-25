@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "XHDR93D86B.com.simonluo.Captains-Call",
+        "paths": ["/join/*"]
+      }
+    ]
+  }
+}
