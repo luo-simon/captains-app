@@ -54,8 +54,13 @@
     document.getElementById('pw').addEventListener('keydown', function(e) {
       if (e.key === 'Enter') checkPw();
     });
-    function checkPw() {
-      if (document.getElementById('pw').value === 'captains123') {
+    async function digestMessage(message) {
+      const msgBuffer = new TextEncoder().encode(message);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+      return Array.from(new Uint8Array(hashBuffer)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+    async function checkPw() {
+      if (await digestMessage(document.getElementById('pw').value) === 'dc0e01752a6ec375e6deaca4425ef473dc0bb9ab9ba4ca8d4a32e7514d7fcf2a') {
         sessionStorage.setItem('captains_access', 'granted');
         document.getElementById('gate').style.display = 'none';
         document.getElementById('download').style.display = 'block';
