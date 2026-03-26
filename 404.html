@@ -17,7 +17,7 @@
     }
     .crown { font-size: 48px; margin-bottom: 16px; }
     h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
-    p { color: #666; font-size: 16px; line-height: 1.5; margin-bottom: 32px; max-width: 320px; margin-left: auto; margin-right: auto; }
+    p { color: #666; font-size: 16px; line-height: 1.5; margin-bottom: 24px; max-width: 320px; margin-left: auto; margin-right: auto; }
     .btn {
       display: inline-block;
       padding: 14px 32px;
@@ -31,7 +31,7 @@
     .btn:hover { background: #333; }
     .code {
       display: inline-block;
-      margin-top: 24px;
+      margin-bottom: 24px;
       padding: 8px 16px;
       background: #f0f0ee;
       border-radius: 8px;
@@ -39,23 +39,33 @@
       font-size: 14px;
       color: #999;
     }
+    .links { margin-top: 48px; }
+    .links a { color: #999; font-size: 13px; text-decoration: none; margin: 0 12px; }
+    .links a:hover { color: #666; }
   </style>
 </head>
 <body>
   <div class="crown">👑</div>
-  <h1>You've been invited to play Captains</h1>
-  <p>The video challenge game for friend groups. Download the app to join this game.</p>
-  <a class="btn" href="https://testflight.apple.com/join/vktfZ2u2">Download on TestFlight</a>
+  <div id="content"></div>
+  <div class="links">
+    <a href="/privacy-policy">Privacy</a>
+    <a href="/terms-of-use">Terms</a>
+    <a href="/support">Support</a>
+  </div>
   <script>
-    // Extract invite code from URL path (e.g. /join/ABC123)
     const path = window.location.pathname;
     const match = path.match(/\/join\/([A-Za-z0-9]+)/);
+    const content = document.getElementById('content');
+
     if (match) {
-      const code = match[1];
-      const el = document.createElement('div');
-      el.className = 'code';
-      el.textContent = 'Invite code: ' + code;
-      document.body.appendChild(el);
+      content.innerHTML =
+        '<h1>You\u2019ve been invited to play Captains</h1>' +
+        '<p>The video challenge game for friend groups. Download the app to join this game.</p>' +
+        '<div class="code">Invite code: ' + match[1] + '</div>' +
+        '<br><a class="btn" href="https://testflight.apple.com/join/vktfZ2u2">Download on TestFlight</a>';
+    } else {
+      // Not a join link — redirect to homepage
+      window.location.href = '/';
     }
   </script>
 </body>
